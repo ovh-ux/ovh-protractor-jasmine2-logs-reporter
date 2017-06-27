@@ -1,0 +1,21 @@
+{
+  "name": "ovh-protractor-jasmine2-logs-reporter",
+  "description": "Logs reporter for Protractor and Jasmine2",
+  "author": "OVH SAS",
+  "license": "BSD-3-Clause",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "ovh-ux/ovh-protractor-jasmine2-logs-reporter",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint --quiet --ext .js .",
+    "fix": "eslint --quiet --fix --ext .js ."
+  },
+  "dependencies": {
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-ovh": "^0.1.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "extends": "./node_modules/eslint-config-ovh/configs/es5-node.js",
+    "rules": {
+        "consistent-return": "off"
+    },
+    "env": {
+        "jasmine": true
+    }
+}
